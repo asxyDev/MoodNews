@@ -9,7 +9,7 @@ from deep_translator import GoogleTranslator
 # SETCONFIG
 st.set_page_config(page_title="MoodNews Pro", page_icon="⚡", layout="wide")
 
-API_KEY = "APY_KEY_REMPLAZA PORFIS:)"
+API_KEY = st.secrets["API_KEY"] #La API_KEY debe verse así para correrlo local ---> API_KEY = 'TU APIKEY'
 
 # MEMORY
 if 'favoritos' not in st.session_state: st.session_state.favoritos = []
@@ -169,3 +169,4 @@ if st.session_state.resultados:
 
 elif st.session_state.resultados == []:
     st.warning("No se hallaron resultados para esta configuración.")
+
