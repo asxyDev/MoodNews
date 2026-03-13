@@ -1,5 +1,5 @@
 # 🌍 MoodNews: Analizador de Sentimiento Global
-WebPage de prueba: https://moodnews-alan.streamlit.app/
+
 MoodNews es un proyecto personal construido para explorar la integración de APIs web, el análisis de datos y el Procesamiento de Lenguaje Natural (NLP). 
 
 La aplicación funciona como un buscador interactivo que recopila las noticias más recientes sobre cualquier tema (o categoría) y evalúa el "humor" o sentimiento general de los titulares para determinar si la opinión mediática es positiva, negativa o neutral.
@@ -28,3 +28,5 @@ Desarrollé esta herramienta como una práctica para entender cómo conectar dif
 
 4. Ejecuta la aplicación desde tu terminal con el comando: `streamlit run moodnews.py`
 
+
+##Pagina de prueba:  https://moodnews-alan.streamlit.app/
